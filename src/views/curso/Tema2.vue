@@ -1,91 +1,169 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'2.Concepto de Derecho tributario y su relación con la contratación'")
+  BannerInterno(:subTitulo="'2. Nulidad del contrato estatal'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-4 El Derecho tributario es una disciplina fundamental que regula la relación entre los ciudadanos y el Estado en materia de impuestos y contribuciones, garantizando el financiamiento de servicios y programas públicos.
-    .row.bg-gris.bg-full-width.py-4.mb-4
-      div.px-5.pb-md-3.py-4.d-flex
-        .col-12.col-xl-8.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
-          h2.mb-4.pb-2.me-auto Derecho tributario 
-          p.mb-5 En el PDF Derecho tributario, se profundiza en los principios que rigen esta rama del derecho, como la equidad y la progresividad, y se analiza cómo el sistema tributario colombiano aplica estas normas para asegurar una distribución justa de la carga fiscal. Además, se abordan las implicaciones del Derecho tributario internacional y los esfuerzos por evitar la doble tributación y promover prácticas fiscales transparentes.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/nombre.pdf')" target="_blank")
-            img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong>Derecho tributario.
-        .d-none.d-xl-block.col-xl-4.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
-          img.h-100(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
+    p.mb-4 En el ámbito de la contratación pública en Colombia, la nulidad del contrato estatal surge como una figura jurídica fundamental para garantizar el cumplimiento de los principios de legalidad, transparencia y eficiencia que rigen la gestión de los recursos públicos.
+
+    .row.bg-amarillo.bg-full-width.py-4.mb-4
+      div.px-5.pb-md-3
+
+        .d-flex.align-items-start(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row
+          img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-7.svg', alt='Texto descriptivo de la imagen')
+          .my-auto
+            p.pe-xl-3.mb-0 La contratación estatal, regulada principalmente por la Ley 80 de 1993, constituye un mecanismo clave para satisfacer las necesidades colectivas y cumplir con los fines esenciales del Estado. 
+
+    p.mb-4(data-aos="fade-up") Sin embargo, cuando se presentan irregularidades que afectan la validez de un contrato, la declaratoria de nulidad se convierte en un mecanismo correctivo para restablecer el orden jurídico y proteger el interés general.
+    p.mb-4(data-aos="fade-up") Para ampliar la información sobre la nulidad del contrato estatal, lo invitamos a escuchar el siguiente podcast.
+
+    .row.mb-4
+      .col-12.col-md-8.col-lg-6.mx-auto
+        TarjetaAudio.color-primario.bg-white.mb-3(
+          texto='Proceso de descarga de Nulidad del contrato estatal'
+          tiempo
+          :audio="require('../../assets/componentes/audios/Nulidad del contrato_mezcla.mp3')"
+          @audio-hover='mostrarIndicadorTarjetaAudio = false'
+        )
+
+    .d-flex.align-items-start.bg-rojo-claro.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row
+      img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-8.svg', alt='Texto descriptivo de la imagen')
+      .my-auto
+        p.pe-xl-3.mb-0 La declaratoria de <b>nulidad</b>, tiene efectos significativos en la contratación estatal. En primer lugar, el contrato pierde su validez y se considera como si nunca hubiera existido. Esto implica la obligación de restituir las prestaciones recibidas entre las partes, como bienes, dinero o servicios entregados. 
+
+    p.mb-4(data-aos="fade-up") Además, la nulidad puede generar responsabilidades administrativas, fiscales o penales para los servidores públicos y contratistas que actuaron de manera irregular. En este sentido, el Consejo de Estado ha reiterado que la nulidad del contrato es una herramienta indispensable para garantizar la correcta administración de los recursos públicos y evitar actos de corrupción (Sentencia CE-SC1778-2020).
+
+    .bg-gris.p-4.mb-4(data-aos="fade-up")
+      span En conclusión, la nulidad del contrato estatal en Colombia, es un mecanismo de control jurídico que garantiza la transparencia, legalidad y eficiencia en la contratación pública. A través de la declaratoria de nulidad, el Estado no solo protege el orden público y el interés general, sino que también restablece la confianza ciudadana en la administración de los recursos públicos. No obstante, su aplicación debe ser equilibrada, considerando tanto el cumplimiento estricto de la Ley como el impacto que su declaratoria puede tener en la función social y la utilidad del contrato. De esta manera, la nulidad del contrato estatal se consolida como una herramienta esencial para fortalecer el estado de derecho y garantizar la correcta ejecución de los fines del Estado.
 
     #t_2_1.titulo-segundo(data-aos="flip-up")
       div.d-flex
         span.me-3 2.1
-        h2 Evolución del derecho tributario
+        h2 Fundamento normativo en Colombia
+
+    p.mb-4(data-aos="fade-up") La nulidad en los contratos estatales, está regulada por diferentes normas del ordenamiento jurídico colombiano:
+
+    .bg-gris.p-4.mb-4(data-aos="fade-up")
+      span <b>Ley 80 de 1993</b>. Es el Estatuto General de Contratación Pública y regula de manera específica, la contratación estatal. En su Artículo 44, establece las causales de nulidad que pueden afectar la validez de los contratos administrativos y dispone que ningún contrato puede ejecutarse si está viciado de nulidad.
 
     .row.mb-4
-      .col-4.d-none.d-xl-block(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')
-      .col-12.col-xl-8
-        .bg-verde-claro.p-4.mb-4(data-aos="fade-up")
-          span El Derecho tributario ha evolucionado significativamente a lo largo de la historia. En las sociedades antiguas, los tributos eran esencialmente aportes en especie o trabajo, que se entregaban a los gobernantes como un deber impuesto por el poder político o militar. Con el tiempo, el desarrollo de los Estados modernos llevó a la formalización de los sistemas tributarios, con la introducción de impuestos regulares y normas específicas para su recaudación.
-        span En el siglo XX, el crecimiento de los Estados de bienestar y las economías globalizadas, llevó a una mayor complejidad en los sistemas tributarios, con la creación de nuevos impuestos y mecanismos de control. Más recientemente, la tecnología ha transformado el Derecho tributario, permitiendo la automatización de procesos fiscales, el intercambio de información entre países y la implementación de estrategias para combatir la evasión fiscal y el lavado de activos.
+      .col-12.col-lg-6
+        .bg-verde.p-4(data-aos="fade-up")
+          span <b>Código Civil Colombiano (Artículos 1740 y siguientes)</b>. El Código Civil define la nulidad como la ineficacia de un contrato cuando se presentan vicios esenciales. Distingue entre nulidad absoluta y nulidad relativa, explicando sus causas y efectos.
+      .col-12.col-lg-6
+        .bg-amarillo.p-4(data-aos="fade-up")
+          span <b>Código de Procedimiento Administrativo y de lo Contencioso Administrativo (CPACA)</b>. El CPACA regula los procedimientos para que las autoridades administrativas y los jueces competentes declaren la nulidad de los contratos, garantizando la transparencia y el debido proceso.
 
-    .row.bg-amarillo.bg-full-width.py-4.mb-4
-      div.px-5.pb-md-3
-        span El Derecho tributario puede definirse como el conjunto de normas que regulan cómo el Estado recauda los recursos que necesita para financiar sus actividades, a través de impuestos, tasas y contribuciones. Este campo del derecho busca equilibrar la necesidad de ingresos públicos con el respeto a los derechos de los ciudadanos, asegurando que los tributos sean justos, equitativos y adecuados a la capacidad de pago de cada contribuyente. En esencia, es la herramienta que garantiza que todos contribuyamos de manera proporcional al desarrollo y sostenimiento de la sociedad.
+    .bg-gris.p-4.mb-4(data-aos="fade-up")
+      span Estas disposiciones trabajan de manera conjunta, para asegurar que los contratos estatales se celebren conforme a los principios de legalidad, transparencia, eficiencia y selección objetiva, fundamentales en la contratación pública.
 
     #t_2_2.titulo-segundo(data-aos="flip-up")
       div.d-flex
         span.me-3 2.2
-        h2 2.2	Relación entre el Derecho tributario y la contratación
+        h2 ¿Cuándo aplica la nulidad en la contratación estatal?
 
-    p.mb-4 En el ámbito de la contratación, el Derecho tributario desempeña un papel fundamental, porque toda actividad contractual, tanto en el sector público como en el privado, tiene implicaciones tributarias. En el contexto de la contratación pública, estas relaciones son especialmente relevantes debido a la necesidad de asegurar que los recursos públicos sean manejados de manera eficiente y conforme a las leyes fiscales.
+    p.mb-4(data-aos="fade-up") La nulidad del contrato estatal en Colombia, es una figura jurídica fundamental que busca garantizar que los contratos celebrados entre entidades públicas y particulares se ajusten a las normas y principios que regulan la contratación estatal. Esta figura protege el orden público, asegura la legalidad y resguarda los recursos públicos utilizados en los procesos contractuales. A continuación, se desarrolla de manera detallada la aplicación de la nulidad, sus fundamentos normativos y las diferencias entre nulidad absoluta y relativa, con ejemplos concretos.
 
-    .row.mb-4
-      .col-12.d-flex.align-items-start.bg-verde-claro.p-4(data-aos="fade-up")
-        img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-38.svg', alt='Texto que describa la imagen')
-        .my-auto
-          p.pe-xl-3.mb-0 Los aspectos tributarios en la contratación incluyen la aplicación de impuestos, la responsabilidad de las entidades contratantes en la retención y el reporte de tributos, y el cumplimiento de las obligaciones fiscales por parte de los contratistas.
+    .row.bg-amarillo.bg-full-width.py-4.mb-4
+      div.px-5.pb-md-3
 
-    p.mb-4 Conozcamos algunos de ellos:
+        .d-flex.align-items-start(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row
+          img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-9.svg', alt='Texto descriptivo de la imagen')
+          .my-auto
+            p.pe-xl-3.mb-0 La nulidad del contrato estatal aplica cuando existen violaciones a normas esenciales que afectan la validez del contrato. Estas irregularidades pueden ser <b>graves</b>, configurando nulidad absoluta, o <b>menos graves</b>, constituyendo nulidad relativa. 
 
-    .row.mb-4
-      .col-12.col-lg-4.d-none.d-lg-block(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
-      .col-12.col-lg-8(data-aos="fade-left")
-        AcordionA(tipo="b")
-          .div(titulo="Retenciones tributarias en la contratación pública")
-            p Uno de los principales vínculos entre el Derecho tributario y la contratación, es la obligación de las entidades públicas de actuar como agentes de retención. Esto significa que, al realizar pagos a contratistas, las entidades deben retener ciertos impuestos, como el impuesto sobre la renta o el impuesto al valor agregado (IVA), y transferirlos a la administración tributaria. Esta medida asegura que los contratistas cumplan con sus obligaciones fiscales, evitando posibles evasiones.<br>Por ejemplo, en Colombia, la retención en la fuente es un mecanismo obligatorio en la contratación pública. La entidad contratante retiene un porcentaje del pago al contratista y lo reporta a la Dirección de Impuestos y Aduanas Nacionales (DIAN). Este procedimiento es clave para garantizar que el Estado recaude los impuestos correspondientes de manera eficiente.
+    p.mb-4(data-aos="fade-up") A continuación, se detalla cada una:
+    p.text-bold.mb-4(data-aos="fade-up") Nulidad absoluta
+    p.mb-4(data-aos="fade-up") La nulidad absoluta se configura cuando el contrato presenta vicios graves que vulneran normas de orden público, principios fundamentales del derecho o cuando se afecta el interés general. Esta nulidad no admite subsanación, es decir, no puede corregirse. Además, puede ser solicitada por cualquier persona interesada, incluidas las autoridades públicas.
+    p.mb-4 Las causales de nulidad absoluta, son:
 
-          .div(titulo="Obligaciones tributarias de los contratistas")
-            p Los contratistas, ya sean personas naturales o jurídicas, están obligados a cumplir con las normativas tributarias relacionadas con sus ingresos derivados de contratos públicos o privados. Esto incluye:<br> o	Declarar y pagar impuestos sobre la renta, por los ingresos obtenidos.<br> o	Liquidar y pagar el IVA si están gravados.<br> o	Registrar y cumplir con el impuesto de industria y comercio (ICA) en la jurisdicción donde desarrollen sus actividades.<br>El incumplimiento de estas obligaciones puede derivar en sanciones tributarias, la suspensión de pagos contractuales o la inhabilitación para contratar con el Estado en el futuro.
+    TabsC.mb-4
+      .tabs-content.border.px-4.p-md-5.py-3(titulo='Objeto ilícito', :iconUrl="require('@/assets/curso/unidad/img-10.svg')")
+        .row
+          .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+            figure
+              img(src='@/assets/curso/unidad/img-11.png', alt='Descripción de la imagen')
+          .col-md-12.col-lg-7.mb-4.mb-md-0
+            h4(data-aos='fade-up') Objeto ilícito
+            p(data-aos='fade-up') Se presenta cuando el objeto del contrato es prohibido por la Ley o es contrario a la moral y al orden público.<br><br><b>Ejemplo</b>. Celebrar un contrato para la adquisición de armas ilegales o sustancias prohibidas.
 
-    .row.mb-4
-      .col-12.col-lg-8(data-aos="fade-right")
-        AcordionA(tipo="b")
-          .div(titulo="Certificaciones de cumplimiento tributario")
-            p En la contratación pública, es común que las entidades contratantes exijan a los contratistas certificados de cumplimiento tributario antes de suscribir contratos o realizar pagos. Estos certificados demuestran que los contratistas están al día con sus obligaciones fiscales, lo que asegura la legalidad y la transparencia en los procesos de contratación.
-          .div(titulo="Relación con el interés público")
-            p El Derecho tributario y la contratación se encuentran en su propósito de proteger el interés público. En primer lugar, la recaudación tributaria derivada de la contratación contribuye al financiamiento de los programas y servicios estatales. Por otro lado, la supervisión tributaria de los procesos de contratación pública garantiza que los recursos del Estado no sean canalizados hacia contratistas que incumplan sus obligaciones fiscales.
-          .div(titulo="Incentivos tributarios en la contratación")
-            p En algunos casos, el Derecho tributario también establece incentivos o beneficios fiscales relacionados con la contratación. Por ejemplo, ciertos contratos destinados al desarrollo de infraestructura o proyectos sociales pueden estar exentos de algunos impuestos, o los contratistas pueden acceder a deducciones tributarias por inversiones realizadas en el marco del contrato.
-      .col-12.col-lg-4.d-none.d-lg-block(data-aos="fade-left")
-        img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
+      .tabs-content.border.px-4.p-md-5.py-3(titulo='Falta de competencia', :iconUrl="require('@/assets/curso/unidad/img-10.svg')")
+        .row
+          .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+            figure
+              img(src='@/assets/curso/unidad/img-12.png', alt='Descripción de la imagen')
+          .col-md-12.col-lg-7.mb-4.mb-md-0
+            h4(data-aos='fade-up') Falta de competencia
+            p(data-aos='fade-up') Ocurre cuando la entidad pública o el funcionario que celebra el contrato no tiene la competencia legal para hacerlo.<br><br><b>Ejemplo</b>. Un contrato celebrado por un alcalde para ejecutar obras que exceden su ámbito de autoridad.
+
+      .tabs-content.border.px-4.p-md-5.py-3(titulo='Violación de normas imperativas', :iconUrl="require('@/assets/curso/unidad/img-10.svg')")
+        .row
+          .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+            figure
+              img(src='@/assets/curso/unidad/img-13.png', alt='Descripción de la imagen')
+          .col-md-12.col-lg-7.mb-4.mb-md-0
+            h4(data-aos='fade-up') Violación de normas imperativas
+            p(data-aos='fade-up') Se configura cuando no se cumplen las formalidades esenciales previstas en la Ley, como la realización de un proceso de licitación cuando este es obligatorio.<br><br><b>Ejemplo</b>. Adjudicar un contrato de alta cuantía por contratación directa sin justificación legal.
+
+      .tabs-content.border.px-4.p-md-5.py-3(titulo='Contratos con personas inhabilitadas', :iconUrl="require('@/assets/curso/unidad/img-10.svg')")
+        .row
+          .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+            figure
+              img(src='@/assets/curso/unidad/img-14.png', alt='Descripción de la imagen')
+          .col-md-12.col-lg-7.mb-4.mb-md-0
+            h4(data-aos='fade-up') Contratos con personas inhabilitadas
+            p(data-aos='fade-up') Ocurre cuando el contrato se celebra con una persona natural o jurídica que está inhabilitada legalmente para contratar con el Estado.<br><br><b>Ejemplo</b>. Contratar a una empresa sancionada por incumplimientos graves en contratos anteriores.
+
+
+    p.text-bold.mb-4(data-aos="fade-up") Nulidad relativa
+    p.mb-4 La nulidad relativa ocurre cuando el contrato presenta vicios menos graves que afectan su validez, pero que pueden ser subsanados por las partes o declarados nulos a solicitud de una parte interesada. Esta nulidad protege los intereses particulares de las partes, siempre y cuando no se vulnere el orden público.
+    p.mb-4 Las causales de nulidad relativa, son:
+
+    TabsC.mb-4
+      .tabs-content.border.px-4.p-md-5.py-3(titulo='Error en el consentimiento', :iconUrl="require('@/assets/curso/unidad/img-10.svg')")
+        .row
+          .col-md-12.col-lg-7.mb-4.mb-md-0
+            h4(data-aos='fade-up') Error en el consentimiento
+            p(data-aos='fade-up') Ocurre cuando una de las partes celebra el contrato debido a un engaño, dolo o fuerza, lo que afecta la voluntad con la que se firma el acuerdo.<br><br><b>Ejemplo</b>. Un contratista presenta información falsa que induce a error a la entidad estatal.
+
+          .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+            figure
+              img(src='@/assets/curso/unidad/img-15.png', alt='Descripción de la imagen')
+      .tabs-content.border.px-4.p-md-5.py-3(titulo='Falta de capacidad legal', :iconUrl="require('@/assets/curso/unidad/img-10.svg')")
+        .row
+          .col-md-12.col-lg-7.mb-4.mb-md-0
+            h4(data-aos='fade-up') Falta de capacidad legal
+            p(data-aos='fade-up') Se configura cuando una de las partes carece de capacidad jurídica para celebrar el contrato.<br><br><b>Ejemplo</b>. La firma del contrato por parte de un representante legal sin autorización válida.
+
+          .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+            figure
+              img(src='@/assets/curso/unidad/img-16.png', alt='Descripción de la imagen')
+      .tabs-content.border.px-4.p-md-5.py-3(titulo='Falta de formalidades no esenciales', :iconUrl="require('@/assets/curso/unidad/img-10.svg')")
+        .row
+          .col-md-12.col-lg-7.mb-4.mb-md-0
+            h4(data-aos='fade-up') Falta de formalidades no esenciales
+            p(data-aos='fade-up') Se presenta cuando existen errores formales menores que no afectan el objeto ni la causa del contrato.<br><br><b>Ejemplo</b>. Un error en las fechas o en algunos documentos anexos que pueden ser corregidos.
+
+          .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+            figure
+              img(src='@/assets/curso/unidad/img-17.png', alt='Descripción de la imagen')
 
     #t_2_3.titulo-segundo(data-aos="flip-up")
       div.d-flex
         span.me-3 2.3
-        h2 Importancia de la relación entre el derecho tributario y la contratación
-    p.mb-4 El vínculo entre el Derecho tributario y la contratación es esencial para asegurar la transparencia y legalidad en el manejo de los recursos públicos.
+        h2 Declaratoria de nulidad y sus efectos
+
+    p.mb-4(data-aos="fade-up") La declaratoria de nulidad es un mecanismo jurídico que garantiza la protección del orden jurídico y la transparencia en los contratos estatales.
 
     .row.bg-amarillo.bg-full-width.py-4.mb-5
       div.px-5.pb-md-3.py-4.d-flex
-        .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
-          h2.mb-4.pb-2.me-auto Relación entre el Derecho tributario y la contratación 
-          p.mb-5 En el PDF Relación entre el Derecho tributario y la contratación, se analiza cómo los procesos de contratación, especialmente en el ámbito público, contribuyen al fortalecimiento del sistema tributario mediante el cumplimiento de obligaciones fiscales por parte de los contratistas. Asimismo, se destacan los mecanismos legales que previenen la evasión fiscal y promueven la eficiencia en la recaudación de impuestos, asegurando que los recursos del Estado sean utilizados de manera equitativa y responsable.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+        .d-none.d-xl-block.col-xl-4.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
+          img.h-100(src='@/assets/curso/unidad/img-18.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-8.d-flex.ps-4.ps-xl-5.align-items-center.flex-column
+          h2.mb-4.pb-2.me-auto Declaratoria de nulidad y sus efectos 
+          p.mb-5(data-aos="fade-up") En el PDF Declaratoria de nulidad y sus efectos, se analiza cómo este proceso permite corregir irregularidades en los contratos, salvaguardando los recursos públicos y asegurando que se cumplan los principios de legalidad y eficiencia. Además, se estudian los efectos de la nulidad, como la restitución de prestaciones y la imposición de sanciones, lo que permite reflexionar sobre la importancia de un control riguroso en la contratación estatal para evitar actos que vulneren el interés general.
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Relación entre el Derecho tributario y la contratación.
-        .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
-          img.h-100(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
+            p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Declaratoria de nulidad y sus efectos.
 
     .bg-full-width.border-top-9-azul
       .px-5.pt-5.pb-0
@@ -94,14 +172,13 @@
           .col-12.col-md-6.col-lg-8
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/113851") Manual de derecho financiero y tributario: parte general
+              a.text-small.text-primary(target="_blank" href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/68925") Contratación estatal y registro único de proponentes (4 ed.)
             p.d-flex.my-4
               img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=4W6tCHv6NBk") [Vídeo] Derecho Tributario: ¿Qué es? [Fácil y con ejemplos]
+              a.text-small.text-primary(target="_blank" href="https://www.youtube.com/watch?v=gBWsPzDQF0o") [Vídeo] Contratación estatal - Mínima cuantía
           .col-12.col-md-6.col-lg-3
             figure
               img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
-
 
 </template>
 

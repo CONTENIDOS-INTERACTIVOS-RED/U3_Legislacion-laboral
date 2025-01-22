@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La legislación laboral es un pilar fundamental para la regulación de las relaciones entre empleadores y trabajadores, garantizando los derechos y deberes de ambas partes en el ámbito laboral. En esta unidad, se analizarán las principales normas que conforman el marco jurídico laboral en Colombia, como el Código Sustantivo del Trabajo y la Ley 50 de 1990, así como los derechos fundamentales de los trabajadores reconocidos por la Constitución Política.
+              p.descripcion.mb-4 Desde los inicios de la función pública, la contratación estatal ha sido una herramienta esencial para garantizar que el Estado cumpla su misión de satisfacer las necesidades colectivas y promover el bienestar general. A través de los contratos administrativos, se busca asegurar que los bienes y servicios adquiridos por las entidades públicas contribuyan al desarrollo social, económico y cultural del país.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárate para comprender el marco normativo que protege y regula las relaciones laborales en Colombia, asegurando el bienestar y los derechos de todos los actores del mercado laboral!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Prepárese para comprender los retos y oportunidades en la contratación estatal y su impacto en la administración pública!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

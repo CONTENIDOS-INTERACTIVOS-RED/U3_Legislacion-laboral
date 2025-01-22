@@ -16,9 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad:
-      'Derechos relacionados con la actividad laboral y contratación',
+    numeroUnidad: '3',
+    tituloUnidad: 'Principios y características de la contratación estatal',
   },
   menuPrincipal: {
     menu: [
@@ -32,49 +31,33 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Actividad laboral',
+        titulo: 'Clases de contratos administrativos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Derecho administrativo y su relación con la contratación',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo:
-              'Derecho administrativo en el ámbito laboral y de la contratación ',
-            hash: 't_1_2',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo:
-          'Concepto de Derecho tributario y su relación con la contratación',
+        titulo: 'Nulidad del contrato estatal',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Evolución del derecho tributario',
+            titulo: 'Fundamento normativo en Colombia',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Relación entre el Derecho tributario y la contratación',
+            titulo: '¿Cuándo aplica la nulidad en la contratación estatal?',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo:
-              'Importancia de la relación entre el derecho tributario y la contratación',
+            titulo: 'Declaratoria de nulidad y sus efectos',
             hash: 't_2_3',
           },
         ],
@@ -83,16 +66,33 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Concepto de Derecho laboral y su relación con la contratación',
+        titulo:
+          'La responsabilidad derivada del contrato administrativo o estatal',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Relación entre el Derecho laboral y la contratación',
+            titulo:
+              'Naturaleza de la responsabilidad en el contrato administrativo',
             hash: 't_3_1',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Tipos de responsabilidad en el contrato estatal',
+            hash: 't_3_2',
+          },
         ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo:
+          'Formas de contratación pública (directa - pública o por licitación)',
+        desarrolloContenidos: true,
+        subMenu: [],
       },
       {
         nombreRuta: 'sintesis',
@@ -137,133 +137,125 @@ export default {
     },
     {
       referencia:
-        'Organización Internacional del Trabajo. (2021). Perspectivas sociales y del empleo en el mundo: El papel de las plataformas digitales en la transformación del mundo del trabajo.',
-      link:
-        'https://www.ilo.org/global/research/global-reports/weso/2021/lang--es/index.htm',
-    },
-    {
-      referencia:
-        'Departamento Administrativo Nacional de Estadística. (2023). Boletín técnico: Gran Encuesta Integrada de Hogares (GEIH) - Empleo informal y seguridad social, octubre - diciembre 2023.',
-      link:
-        'https://www.dane.gov.co/files/operaciones/GEIH/bol-GEIHEISS-oct-dic2023.pdf',
-    },
-    {
-      referencia:
-        'Congreso de Colombia. (1950). Código Sustantivo del Trabajo [Decreto Ley 2663 de 1950]. Actualizado hasta 2023.',
-      link:
-        'https://www.suin-juriscol.gov.co/viewdocument.asp?ruta=codigo/30019323',
-    },
-    {
-      referencia:
-        'Asamblea Nacional Constituyente de Colombia. (1991). Constitución Política de Colombia. Actualizado hasta 2023.',
-      link:
-        'https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Constitucion/1687988',
-    },
-    {
-      referencia:
         'Congreso de Colombia. (1993). Ley 80 de 1993: Por la cual se expide el Estatuto General de Contratación de la Administración Pública. Diario Oficial No. 41.094.',
       link:
         'https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes/1790106',
     },
     {
       referencia:
-        'Congreso de Colombia. (2002). Ley 734 de 2002: Por la cual se expide el Código Disciplinario Único. Diario Oficial No. 44.699.',
+        'Roa Rojas, H. (2008). Régimen de contratación estatal (ed.). Ecoe Ediciones.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/69056',
+    },
+    {
+      referencia:
+        'Consejo de Estado, Sala de lo Contencioso Administrativo, Sección Tercera. (2020). Sentencia del 14 de mayo de 2020, Radicación No. 05001-23-31-000-2005-07646-01. Relatoría del Consejo de Estado.',
       link:
-        'https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes/1667339',
+        'https://relatoria.colombiacompra.gov.co/providencias/05001-23-31-000-2005-07646-01/?utm_source=chatgpt.com',
     },
     {
       referencia:
-        'Troya Jaramillo, J. V. (2014). Manual de Derecho Tributario (ed.). Corporación de Estudios y Publicaciones.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/115041',
-    },
-    {
-      referencia:
-        'Organización para la Cooperación y el Desarrollo Económicos. (2016). Proyecto de la OCDE y del G-20 sobre la Erosión de la Base Imponible y el Traslado de Beneficios.',
+        'Congreso de Colombia. (2011). Ley 1437 de 2011: Por la cual se expide el Código de Procedimiento Administrativo y de lo Contencioso Administrativo. Diario Oficial No. 47.956.',
       link:
-        'https://www.oecd.org/es/publications/proyecto-de-la-ocde-y-del-g-20-sobre-la-erosion-de-la-base-imponible-y-el-traslado-de-beneficios_24156108.html',
+        'https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes/1680117',
     },
     {
       referencia:
-        'Capón Filas, R. (1998). Derecho del trabajo (ed.). Librería Editora Platense S.R.L.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/66572',
-    },
-    {
-      referencia:
-        'Congreso de Colombia. (1915). Ley 57 de 1915: Por la cual se establece el régimen para el servicio de correo y telégrafos en el país. Diario Oficial.',
+        'Congreso de Colombia. (1887). Código Civil Colombiano: Por la cual se adopta el Código Civil para la República de Colombia. Diario Oficial No. 4390.',
       link:
-        'https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes/1609446',
+        'https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes/1827111',
+    },
+    {
+      referencia:
+        'Corte Suprema de Justicia de Colombia. (2020). Sentencia SC1778-2020.',
+      link:
+        'https://cortesuprema.gov.co/corte/wp-content/uploads/2020/12/SC1778-2020.pdf',
+    },
+    {
+      referencia:
+        'García, A. B. & Pedreros Sáchica, M. F. (2015). Algunos temas sobre contratación estatal (ed.). Editorial Pontificia Universidad Javeriana.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/123260',
+    },
+    {
+      referencia:
+        'Congreso de Colombia. (2007). Ley 1150 de 2007: Por medio de la cual se introducen medidas para la eficiencia y la transparencia en la Ley 80 de 1993 y se dictan otras disposiciones generales sobre la contratación con recursos públicos. Diario Oficial No. 46.691.',
+      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1674903',
     },
   ],
   glosario: [
     {
-      termino: 'Cesantías',
+      termino: 'Contratación Directa',
       significado:
-        'Prestación social destinada a garantizar la estabilidad económica del trabajador en caso de desempleo, acumulada anualmente y regulada por el sistema laboral colombiano.',
+        'modalidad excepcional de contratación pública en la que la entidad estatal selecciona directamente al contratista, sin un proceso de licitación abierta. Se justifica en situaciones específicas como urgencia manifiesta o contratación interadministrativa.',
     },
     {
-      termino: 'Contrato Laboral',
+      termino: 'Contratación Estatal',
       significado:
-        'Acuerdo bilateral entre empleador y trabajador en el que se establecen las condiciones de la relación laboral, sujeto a las normas del Código Sustantivo del Trabajo.',
+        'proceso mediante el cual las entidades públicas adquieren bienes, servicios y obras necesarias para el cumplimiento de sus funciones y fines esenciales del Estado.',
     },
     {
-      termino: 'Contratación Administrativa',
+      termino: 'Contratación Pública',
       significado:
-        'Proceso por el cual las entidades públicas celebren contratos con particulares para adquirir bienes, servicios o realizar obras, regulado por el Derecho administrativo.',
+        'modalidad ordinaria en la que se convoca a múltiples oferentes para que participen en procesos de selección transparentes, como la licitación pública.',
     },
     {
-      termino: 'Derecho Administrativo',
+      termino: 'Contratos Administrativos',
       significado:
-        'Rama del Derecho Público que regula la estructura y funciones de la administración pública, así como las relaciones entre el Estado y los particulares.',
+        'acuerdos legales donde interviene una entidad estatal como contratante. Tienen características especiales como sujeción a normas públicas y preeminencia del interés general.',
     },
     {
-      termino: 'Derecho Laboral',
+      termino: 'Contratos de Concesión',
       significado:
-        'Conjunto de normas jurídicas que regulan las relaciones entre empleadores y trabajadores, garantizando el cumplimiento de derechos y deberes recíprocos.',
+        'forma de contrato mediante el cual una entidad pública autoriza a un particular la explotación económica de un bien o la prestación de un servicio público bajo ciertas condiciones.',
     },
     {
-      termino: 'Derecho Tributario',
+      termino: 'Contrato de Interventoría',
       significado:
-        'Rama del Derecho que regula la creación, recaudación y administración de tributos, con incidencia en los procesos de contratación laboral y administrativa.',
+        'acuerdo en el cual un tercero especializado supervisa y controla la ejecución de un contrato estatal para garantizar su cumplimiento conforme a los términos técnicos y legales.',
     },
     {
-      termino: 'Equidad Salarial',
+      termino: 'Contrato de Obra Pública',
       significado:
-        'Principio que exige la igualdad de remuneración para trabajadores que desempeñen funciones similares, sin discriminación por género, edad o condición social.',
+        'contrato celebrado para la construcción, reparación o mantenimiento de infraestructuras que beneficien a la comunidad, como carreteras o edificios públicos.',
     },
     {
-      termino: 'Modalidades de Contratación',
+      termino: 'Contrato de Suministro',
       significado:
-        'Diversos tipos de procesos contractuales establecidos por la normativa para regular la adquisición de bienes y servicios en el sector público.',
+        'acuerdo mediante el cual una entidad estatal adquiere bienes necesarios para sus funciones, garantizando la entrega periódica de los productos según lo pactado.',
     },
     {
-      termino: 'Negociación Colectiva',
+      termino: 'Economía',
       significado:
-        'Procedimiento legal mediante el cual trabajadores y empleadores acuerdan condiciones laborales mediante representantes autorizados.',
+        'principio de la contratación estatal que busca optimizar el uso de los recursos públicos, asegurando la selección de propuestas con la mejor relación costo-beneficio.',
     },
     {
-      termino: 'Prestaciones Sociales',
+      termino: 'Interés General',
       significado:
-        'Beneficios adicionales al salario que el empleador debe otorgar al trabajador, tales como primas, cesantías y seguridad social.',
+        'principio fundamental de la contratación estatal que prioriza el beneficio de la comunidad y la satisfacción de necesidades públicas por encima de intereses particulares.',
     },
     {
-      termino: 'Principio de Favorabilidad',
+      termino: 'Legalidad',
       significado:
-        'Norma que ordena interpretar las disposiciones laborales de la manera más beneficiosa para el trabajador en caso de ambigüedad.',
+        'principio rector que establece que todos los procesos de contratación estatal deben realizarse conforme a las normas legales vigentes, como la Ley 80 de 1993.',
     },
     {
-      termino: 'Responsabilidad Laboral del Contratista',
+      termino: 'Licitación Pública',
       significado:
-        'Obligación del contratista de garantizar los derechos laborales de los trabajadores que emplea en la ejecución de contratos administrativos.',
+        'procedimiento general y competitivo mediante el cual una entidad pública selecciona al contratista que mejor cumple con los requisitos económicos y técnicos establecidos.',
     },
     {
-      termino: 'Seguridad Social Integral',
+      termino: 'Nulidad Absoluta',
       significado:
-        'Sistema que garantiza el acceso a servicios de salud, pensiones y cobertura por riesgos laborales a todos los trabajadores.',
+        'figura jurídica que invalida un contrato cuando existen vicios graves que afectan normas de orden público, como la falta de competencia o el objeto ilícito.',
     },
     {
-      termino: 'Transparencia Contractual',
+      termino: 'Nulidad Relativa',
       significado:
-        'Principio que exige que los procesos de contratación pública sean claros, accesibles y supervisados por la ciudadanía para prevenir irregularidades.',
+        'situación en la que el contrato presenta vicios menos graves, como errores en el consentimiento, que pueden subsanarse sin afectar el interés general.',
+    },
+    {
+      termino: 'Transparencia',
+      significado:
+        'principio que garantiza que los procesos de contratación sean públicos, verificables e imparciales, permitiendo el control ciudadano y evitando actos de corrupción.',
     },
   ],
   complementario: [
