@@ -11,7 +11,7 @@
         .col-12.col-xl-8.d-flex.ps-4.ps-xl-5.align-items-center.flex-column
           h2.mb-4.pb-2.me-auto Contratación estatal
           p.mb-5(data-aos="fade-up") En el PDF Contratación estatal, se analizan los principios fundamentales que rigen estos procesos, como la transparencia, la economía y la responsabilidad, así como las características esenciales que aseguran su legalidad y eficacia. Este documento invita a reflexionar sobre la importancia de gestionar los recursos públicos de manera eficiente y ética, promoviendo la confianza ciudadana y el cumplimiento de los fines del Estado.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Contratación estatal.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Contratación estatal.
 

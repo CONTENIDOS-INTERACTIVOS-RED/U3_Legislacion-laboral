@@ -161,7 +161,7 @@
         .col-12.col-xl-8.d-flex.ps-4.ps-xl-5.align-items-center.flex-column
           h2.mb-4.pb-2.me-auto Declaratoria de nulidad y sus efectos 
           p.mb-5(data-aos="fade-up") En el PDF Declaratoria de nulidad y sus efectos, se analiza cómo este proceso permite corregir irregularidades en los contratos, salvaguardando los recursos públicos y asegurando que se cumplan los principios de legalidad y eficiencia. Además, se estudian los efectos de la nulidad, como la restitución de prestaciones y la imposición de sanciones, lo que permite reflexionar sobre la importancia de un control riguroso en la contratación estatal para evitar actos que vulneren el interés general.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Declaratoria de nulidad y sus efectos.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Declaratoria de nulidad y sus efectos.
 

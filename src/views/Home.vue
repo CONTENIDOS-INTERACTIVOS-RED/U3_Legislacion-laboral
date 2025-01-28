@@ -24,7 +24,7 @@
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
               p.descripcion.mb-4 Desde los inicios de la función pública, la contratación estatal ha sido una herramienta esencial para garantizar que el Estado cumpla su misión de satisfacer las necesidades colectivas y promover el bienestar general. A través de los contratos administrativos, se busca asegurar que los bienes y servicios adquiridos por las entidades públicas contribuyan al desarrollo social, económico y cultural del país.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Prepárese para comprender los retos y oportunidades en la contratación estatal y su impacto en la administración pública!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold !Prepárese para comprender los retos y oportunidades en la contratación estatal y su impacto en la administración pública!
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

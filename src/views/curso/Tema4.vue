@@ -104,7 +104,7 @@
         p Se selecciona la oferta que mejor cumple con los requisitos y condiciones.
       .tarjeta.bg-white.p-4(x='67%' y='89%' numero='+')
         .h5.mb-2 Firma y ejecución del contrato
-        p Se formaliza el acuerdo y se inicia la ejecución del objeto contratado
+        p Se formaliza el acuerdo y se inicia la ejecución del objeto contratado.
 
     p.mb-4 <b>Tabla 1.</b> Comparación entre contratación directa y licitación pública
 
